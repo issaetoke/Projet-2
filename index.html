@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--Attribut lang ajouté-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>PAGE PRINCIPAL</title>
+    <link rel="stylesheet" href="style index.css">
+</head>
+
+<body class="body">
+    <!--Titres-->
+    <header class="header">
+        <div class="titre">
+            <nav class="nav">
+                <li><a href="./index.html">Index</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./flexbox.html">Flexbox</a></li>
+                <li><a href="./grid.html">Grid</a></li>
+            </nav>
+            <h1 class="h1">Welcome to my web site</h1> <!--Attribut title ajouté-->
+            <h2 class="h2">Un sous-titre</h2> <!--Attribut title ajouté-->
+            <button type="button"><a href="./Media/Images/CV_Premier-emploi-pro-1.svg" download="CV Premier emploi">Télécharger mon CV</a></button>
+            <div class="img">
+                <img src="./Media/Images/CDP Logo.png" alt="Description de l'image"> 
+            </div>
+        </div>
+    </header>
+
+    <!--Paragraphe-->
+    <section>
+        <p> <!--Attribut style ajouté-->
+            Ceci est un paragraphe contenant du <strong title="Texte en gras">texte en gras</strong> et du
+            <em title="Texte en italique">texte en italique</em>.
+        </p> <br>
+
+        <p>
+            <b>Le Lorem Ipsum est simplement du faux texte </b> <br> <br>
+            <em>utilisé dans la composition et la mise en page </em> <br> <br>
+            <i>avant impression. Il est le faux texte standard </i> <br> <br>
+            <small>de l'industrie depuis le XVIe siècle, lorsqu'un</small> <br> <br>
+            <strong>imprimeur anonyme assembla une liasse de caractères</strong> <br> <br>
+            pour en faire un recueil de spécimens <sub>typographiques. </sub> <br> <br>
+            Il a non seulement <sup>survécu à cinq siècles, mais aussi </sup> <br> <br>
+            <ins>à l'avènement de la composition électronique, </ins> <br> <br>
+            <mark>sans pour autant changer fondamentalement de forme.
+                Il a été popularisé dans les années 1960
+                avec la sortie de feuilles Letraset
+                contenant des passages du Lorem Ipsum, et plus récemment
+                avec des logiciels de PAO comme Aldus PageMaker
+                incluant des versions du Lorem Ipsum. <br> <br>
+            </mark>
+        </p>
+        <!--Lien-->
+        <p>
+            Visitez <a href="https://www.example.com" title="Aller sur example.com"> ce site web</a> pour plus d'informations.
+        </p>
+    </section>
+
+
+    <section class="s1">
+        <!--Liste-->
+        <div class="d1">
+            <ul style="text-align:left;">
+                <li>Elément 1</li>
+                <li>Elément 2</li>
+                <li>Elément 3</li>
+            </ul>
+        </div>
+        <!--Liste ordonnée-->
+        <div class="d1">
+            <ol>
+                <li>Première étape</li>
+                <li>Deuxième étape</li>
+                <li>Troisième étape</li>
+            </ol>
+        </div>
+        <!--Tableau-->
+        <table border="1" class="d1">
+            <tr>
+                <th>Nom</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Bryan</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Loïc</td>
+                <td>20</td>
+            </tr>
+        </table>
+
+    <!--Formulaire-->
+        <form action="submit.php" method="POST" class="d1">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+
+    <!--Médias-->
+    <section class="s1">
+        <h1 class="h1">Lien médias</h1>
+        <div class="d1">
+            <img src="./Media/Images/Wallpaper3786.jpg" alt="Angel Di Maria" width="300">
+        </div>
+        <div class="d1">
+            <video src="./Media/Videos/0101.mp4" width="300" controls></video>
+        </div>
+        <div class="d1">
+            <audio src="./Media/Audio/JERK DRILL.mp3" controls></audio>
+        </div>
+    </section>
+
+    <!--Div et span-->
+    <footer>
+        <div class="d1">
+            <p>Ce texte est dans un <span style="color: red;"> conteneur div</span>.</p>
+        </div>
+    </footer>
+</body>
+</html>
