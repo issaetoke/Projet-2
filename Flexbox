@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style flexbox.css">
+</head>
+<body>
+    <h1>DESIGN RESPONSIVE AVEC FLEXBOX</h1>
+
+    <h2>Produits disponibles</h2>
+    <div id="Products" class="flexbox-container">
+        <div class="item">Produit 1</div>
+        <div class="item">Produit 2</div>
+        <div class="item">Produit 3</div>
+        <div class="item">Produit 4</div>
+        <div class="item">Produit 5</div>
+        <div class="item">Produit 6</div>
+    </div>
+
+    <h2>Produits en rupture de stock</h2>
+    <div id="Rupture" class="flexbox-container">
+        <div class="item">Produit 1</div>
+        <div class="item">Produit 2</div>
+        <div class="item">Produit 3</div>
+    </div>
+
+    <h2>Nouveaux arrivages</h2>
+    <div id="New" class="flexbox-container">
+        <div class="item">Produit 1</div>
+        <div class="item">Produit 2</div>
+        <div class="item">Produit 3</div>
+        <div class="item">Produit 4</div>
+        <div class="item">Produit 5</div>
+    </div>
+</body>
+</html>
